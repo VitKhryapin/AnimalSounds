@@ -7,15 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FB16BD4627C3B57C00338AB5 /* Preview.png in Resources */ = {isa = PBXBuildFile; fileRef = FB16BD4527C3B57C00338AB5 /* Preview.png */; };
 		FB64D89B27268700001C1DE2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB64D89A27268700001C1DE2 /* AppDelegate.swift */; };
 		FB64D89D27268700001C1DE2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB64D89C27268700001C1DE2 /* SceneDelegate.swift */; };
 		FB64D89F27268700001C1DE2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB64D89E27268700001C1DE2 /* ViewController.swift */; };
 		FB64D8A227268700001C1DE2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB64D8A027268700001C1DE2 /* Main.storyboard */; };
 		FB64D8A427268701001C1DE2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB64D8A327268701001C1DE2 /* Assets.xcassets */; };
 		FB64D8A727268701001C1DE2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB64D8A527268701001C1DE2 /* LaunchScreen.storyboard */; };
+		FB64D8B227268B1C001C1DE2 /* SimpleSound.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB64D8AE27268B1C001C1DE2 /* SimpleSound.swift */; };
+		FB64D8B327268B1C001C1DE2 /* moo.m4a in Resources */ = {isa = PBXBuildFile; fileRef = FB64D8AF27268B1C001C1DE2 /* moo.m4a */; };
+		FB64D8B427268B1C001C1DE2 /* woof.m4a in Resources */ = {isa = PBXBuildFile; fileRef = FB64D8B027268B1C001C1DE2 /* woof.m4a */; };
+		FB64D8B527268B1C001C1DE2 /* meow.m4a in Resources */ = {isa = PBXBuildFile; fileRef = FB64D8B127268B1C001C1DE2 /* meow.m4a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FB16BD4527C3B57C00338AB5 /* Preview.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Preview.png; sourceTree = SOURCE_ROOT; };
 		FB64D89727268700001C1DE2 /* AnimalSounds.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnimalSounds.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB64D89A27268700001C1DE2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FB64D89C27268700001C1DE2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +30,10 @@
 		FB64D8A327268701001C1DE2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FB64D8A627268701001C1DE2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FB64D8A827268701001C1DE2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB64D8AE27268B1C001C1DE2 /* SimpleSound.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SimpleSound.swift; sourceTree = "<group>"; };
+		FB64D8AF27268B1C001C1DE2 /* moo.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = moo.m4a; sourceTree = "<group>"; };
+		FB64D8B027268B1C001C1DE2 /* woof.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = woof.m4a; sourceTree = "<group>"; };
+		FB64D8B127268B1C001C1DE2 /* meow.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = meow.m4a; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,13 +66,18 @@
 		FB64D89927268700001C1DE2 /* AnimalSounds */ = {
 			isa = PBXGroup;
 			children = (
-				FB64D89A27268700001C1DE2 /* AppDelegate.swift */,
-				FB64D89C27268700001C1DE2 /* SceneDelegate.swift */,
+				FB64D8B127268B1C001C1DE2 /* meow.m4a */,
+				FB64D8AF27268B1C001C1DE2 /* moo.m4a */,
+				FB64D8B027268B1C001C1DE2 /* woof.m4a */,
+				FB64D8AE27268B1C001C1DE2 /* SimpleSound.swift */,
 				FB64D89E27268700001C1DE2 /* ViewController.swift */,
 				FB64D8A027268700001C1DE2 /* Main.storyboard */,
+				FB64D89A27268700001C1DE2 /* AppDelegate.swift */,
+				FB64D89C27268700001C1DE2 /* SceneDelegate.swift */,
 				FB64D8A327268701001C1DE2 /* Assets.xcassets */,
 				FB64D8A527268701001C1DE2 /* LaunchScreen.storyboard */,
 				FB64D8A827268701001C1DE2 /* Info.plist */,
+				FB16BD4527C3B57C00338AB5 /* Preview.png */,
 			);
 			path = AnimalSounds;
 			sourceTree = "<group>";
@@ -126,6 +141,10 @@
 			files = (
 				FB64D8A727268701001C1DE2 /* LaunchScreen.storyboard in Resources */,
 				FB64D8A427268701001C1DE2 /* Assets.xcassets in Resources */,
+				FB64D8B327268B1C001C1DE2 /* moo.m4a in Resources */,
+				FB16BD4627C3B57C00338AB5 /* Preview.png in Resources */,
+				FB64D8B427268B1C001C1DE2 /* woof.m4a in Resources */,
+				FB64D8B527268B1C001C1DE2 /* meow.m4a in Resources */,
 				FB64D8A227268700001C1DE2 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -140,6 +159,7 @@
 				FB64D89F27268700001C1DE2 /* ViewController.swift in Sources */,
 				FB64D89B27268700001C1DE2 /* AppDelegate.swift in Sources */,
 				FB64D89D27268700001C1DE2 /* SceneDelegate.swift in Sources */,
+				FB64D8B227268B1C001C1DE2 /* SimpleSound.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
